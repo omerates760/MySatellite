@@ -1,4 +1,4 @@
-package com.omerates.mysatellite.navigation
+package com.omerates.mysatellite.main.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController

@@ -1,4 +1,4 @@
-package com.omerates.mysatellite
+package com.omerates.mysatellite.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

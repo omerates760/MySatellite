@@ -1,4 +1,4 @@
-package com.omerates.mysatellite
+package com.omerates.mysatellite.main
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
@@ -6,7 +6,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
-import com.omerates.mysatellite.navigation.SatelliteNavHost
+import com.omerates.mysatellite.main.navigation.SatelliteNavHost
 
 @Composable
 fun SatelliteApp() {

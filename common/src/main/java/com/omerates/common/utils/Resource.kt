@@ -1,4 +1,4 @@
-package com.omerates.satelliteapp.core.common.utils
+package com.omerates.common.utils
 
 sealed class Resource<out T : Any> {
     object Loading : Resource<Nothing>()

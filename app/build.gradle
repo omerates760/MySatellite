@@ -53,6 +53,7 @@ dependencies {
     implementation(project(":common"))
     implementation(project(':ui'))
     implementation(project(":data"))
+    implementation(project(":feature:home"))
 
     implementation "androidx.core:core-ktx:$core_ktx_version"
     implementation "androidx.activity:activity-compose:$compose_activity_version"

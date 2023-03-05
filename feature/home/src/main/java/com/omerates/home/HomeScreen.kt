@@ -14,6 +14,7 @@ import com.omerates.ui.components.Error
 import com.omerates.ui.components.NoSearchResult
 import com.omerates.ui.components.SatelliteProgressBar
 import com.omerates.ui.components.SearchBar
+import com.omerates.ui.navigation.SatelliteDetail
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -51,6 +52,7 @@ fun HomeScreen(
             modifier = Modifier.padding(top = it.calculateTopPadding()),
             satellites = uiState.satellites,
             onSatelliteClicked = { satelliteItem ->
+                navController.navigate("${SatelliteDetail.route}/${satelliteItem.id}")
             })
     }
 }

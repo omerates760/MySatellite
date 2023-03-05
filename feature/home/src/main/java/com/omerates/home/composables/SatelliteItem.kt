@@ -16,6 +16,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.omerates.common.extensions.capitalized
 import com.omerates.home.SatelliteCurrentType
 import com.omerates.home.SatelliteUiModel
 
@@ -61,7 +62,7 @@ fun SatelliteItem(
                     modifier = Modifier.padding(bottom = 4.dp)
                 )
                 Text(
-                    text = satellite.type.readableName,
+                    text = satellite.type.readableName.capitalized(),
                     style = TextStyle(
                         fontWeight = FontWeight.Normal,
                         fontSize = 15.sp,

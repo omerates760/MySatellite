@@ -6,8 +6,8 @@
 
 ## ScreenShots
 <p align="center">
-<img src="/screenshots/home.jpeg" width="30%"/>
-<img src="/screenshots/detail.jpeg" width="30%"/>
+<img src="/screenshots/home.jpg" width="30%"/>
+<img src="/screenshots/detail.jpg" width="30%"/>
 </p>
 
 ## Tech stack & Open-source libraries

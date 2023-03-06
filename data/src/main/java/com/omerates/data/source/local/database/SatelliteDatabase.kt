@@ -13,9 +13,9 @@ import com.omerates.data.model.mapper.toSatelliteListEntity
 import com.omerates.data.source.local.dao.PositionDao
 import com.omerates.data.source.local.dao.SatelliteDao
 import com.omerates.data.source.local.dao.SatelliteDetailDao
-import com.omerates.satelliteapp.core.data.model.entity.PositionEntity
-import com.omerates.satelliteapp.core.data.model.entity.SatelliteDetailEntity
-import com.omerates.satelliteapp.core.data.model.entity.SatelliteEntity
+import com.omerates.data.model.entity.PositionEntity
+import com.omerates.data.model.entity.SatelliteDetailEntity
+import com.omerates.data.model.entity.SatelliteEntity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.omerates.home
+package com.omerates.data
 
 import org.junit.Test
 

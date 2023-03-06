@@ -2,7 +2,7 @@ package com.omerates.data.model.mapper
 
 import com.omerates.data.model.dto.position.PositionItem
 import com.omerates.domain.model.PositionDomainItem
-import com.omerates.satelliteapp.core.data.model.entity.PositionEntity
+import com.omerates.data.model.entity.PositionEntity
 
 fun List<PositionItem>.toPositionListEntity(id: Int) = map {
     PositionEntity(

@@ -11,7 +11,6 @@ import javax.inject.Inject
 class SearchSatelliteUseCase @Inject constructor(
     private val satelliteRepository: SatelliteRepository,
 ) {
-
     operator fun invoke(
         name: String
     ): Flow<Resource<List<SatelliteDomainItem>>> = satelliteRepository.searchSatellite(name).map {

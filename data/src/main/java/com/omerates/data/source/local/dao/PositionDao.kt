@@ -1,7 +1,7 @@
 package com.omerates.data.source.local.dao
 
 import androidx.room.*
-import com.omerates.satelliteapp.core.data.model.entity.PositionEntity
+import com.omerates.data.model.entity.PositionEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

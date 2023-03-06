@@ -2,7 +2,7 @@ package com.omerates.data.model.mapper
 
 import com.omerates.data.model.dto.SatelliteItem
 import com.omerates.domain.model.SatelliteDomainItem
-import com.omerates.satelliteapp.core.data.model.entity.SatelliteEntity
+import com.omerates.data.model.entity.SatelliteEntity
 
 fun List<SatelliteItem>.toSatelliteListEntity() = map {
     SatelliteEntity(

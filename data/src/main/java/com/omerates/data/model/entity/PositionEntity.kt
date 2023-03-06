@@ -1,4 +1,4 @@
-package com.omerates.satelliteapp.core.data.model.entity
+package com.omerates.data.model.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

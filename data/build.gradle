@@ -51,5 +51,12 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
     //Gson
     implementation 'com.google.code.gson:gson:2.9.1'
+    testImplementation "androidx.room:room-testing:$room_version"
+
+    testImplementation "junit:junit:$junit_test_version"
+    androidTestImplementation "androidx.test.ext:junit:$junit_test_ext_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
+    androidTestImplementation "android.arch.core:core-testing:$arch_core_testing_version"
+
 
 }
